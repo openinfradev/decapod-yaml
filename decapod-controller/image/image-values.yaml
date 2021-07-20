@@ -15,7 +15,7 @@ charts:
     volumePermissions.image.repository: bitnami/bitnami-shell
     volumePermissions.image.tag: 10-debian-10-r125
 
-- name: argo-workflows
+- name: argo-workflows-operator
   override:
     controller.image.registry: $(registry)
     controller.image.repository: argoproj/workflow-controller
